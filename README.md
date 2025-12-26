@@ -11,6 +11,92 @@ CashMaster 6688 combines hardware and software components to streamline currency
 A responsive web application monitors real-time currency data, provides user interaction, and maintains comprehensive logs.
 
 ---
+## Contributors
+
+This project was developed collaboratively. The following contributors played key roles in different aspects of the system.
+
+<table>
+<tr>
+<td align="center" width="180px">
+<br>
+<a href="https://github.com/VibhathKalsara99">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/VibhathKalsara99&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="VibhathKalsara"/><br>
+<b>VibhathKalsara</b>
+</a>
+<br><br>
+<div align="left">
+<ul style="padding-left:20px;margin:0;">
+<li>Project Leader</li>
+<li>CoreXY motion control</li>
+<li>PCB component logic</li>
+<li>LCD display interface development</li>
+</ul>
+</div>
+</td>
+<td align="center" width="180px">
+<br>
+<a href="https://github.com/DileepaPRA">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/DileepaPRA&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="DileepaPrabhath"/><br>
+<b>DileepaPrabhath</b>
+</a>
+<br><br>
+<div align="left">
+<ul style="padding-left:20px;margin:0;">
+<li>Image recognition script</li>
+<li>Raspberry Pi control logic</li>
+<li>Z-axis movement mechanism</li>
+</ul>
+</div>
+</td>
+<td align="center" width="180px">
+<br>
+<a href="https://github.com/shksithara">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/shksithara&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="KalpaniSithara"/><br>
+<b>KalpaniSithara</b>
+</a>
+<br><br>
+<div align="left">
+<ul style="padding-left:20px;margin:0;">
+<li>Web application frontend development</li>
+<li>Backend logic implementation</li>
+<li>Firebase real-time database integration</li>
+</ul>
+</div>
+</td>
+<td align="center" width="180px">
+<br>
+<a href="https://github.com/sulari-gamage">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/sulari-gamage&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="SulariGamage"/><br>
+<b>SulariGamage</b>
+</a>
+<br><br>
+<div align="left">
+<ul style="padding-left:20px;margin:0;">
+<li>Coin detection algorithm development</li>
+<li>IR sensor integration</li>
+<li>PCB component-level implementation</li>
+</ul>
+</div>
+</td>
+<td align="center" width="180px">
+<br>
+<a href="https://github.com/KaveenAlahapperuma">
+<img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/KaveenAlahapperuma&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="KaveenAlahapperuma"/><br>
+<b>KaveenAlahapperuma</b>
+</a>
+<br><br>
+<div align="left">
+<ul style="padding-left:20px;margin:0;">
+<li>Security system implementation</li>
+<li>Password-protected solenoid locking mechanism</li>
+<li>Secure access control logic</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+
+---
 
 ## Features
 
@@ -32,7 +118,7 @@ A responsive web application monitors real-time currency data, provides user int
   * HTML, CSS, JavaScript (Web interface)
 * **Database:** Firebase (for real-time currency data)
 * **Communication:** USB Serial between Raspberry Pi and Arduinos
-* **Libraries/Tools:** OpenCV (Image Processing), SPI LCD, Keypad I2C, A4988 Stepper Drivers
+* **Libraries/Tools:** MobileNetV2 (Image Processing), SPI LCD, Keypad I2C, A4988 Stepper Drivers
 
 ---
 
@@ -52,7 +138,10 @@ A responsive web application monitors real-time currency data, provides user int
 3. **Web Application:**
 
    * Real-time display of total amount and denomination counts
-   * Interface to unlock coin/note compartments as needed
+
+4. **LCD Display + Keypad**
+
+   * Unlock & Lock the store compartments with password ; input via keypad
 
 ---
 
@@ -82,7 +171,6 @@ A responsive web application monitors real-time currency data, provides user int
      * Username: `admin`
      * Password: `cashmaster6688`
    * Use the admin panel to **monitor real-time currency data**, total amounts, and denomination counts.
-   * The web interface also allows **control actions** such as unlocking coin/note compartments as needed.
 
 ---
 
