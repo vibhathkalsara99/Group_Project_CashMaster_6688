@@ -17,76 +17,71 @@ This project was developed collaboratively. The following contributors played ke
 
 <table>
 <tr>
-<td align="center" width="180px">
-<br>
+<td align="center" valign="top" width="20%">
 <a href="https://github.com/VibhathKalsara99">
 <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/VibhathKalsara99&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="VibhathKalsara"/><br>
 <b>VibhathKalsara</b>
 </a>
 <br><br>
 <div align="left">
-<ul style="padding-left:20px;margin:0;">
+<ul style="padding-left:10px;margin:0;">
 <li>Project Leader</li>
 <li>CoreXY motion control</li>
 <li>PCB component logic</li>
-<li>LCD interface development</li>
+<li>LCD display interface development</li>
 </ul>
 </div>
 </td>
-<td align="center" width="180px">
-<br>
+<td align="center" valign="top" width="20%">
 <a href="https://github.com/DileepaPRA">
 <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/DileepaPRA&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="DileepaPrabhath"/><br>
 <b>DileepaPrabhath</b>
 </a>
 <br><br>
 <div align="left">
-<ul style="padding-left:20px;margin:0;">
+<ul style="padding-left:10px;margin:0;">
 <li>Image recognition script</li>
 <li>Raspberry Pi control logic</li>
 <li>Z-axis movement mechanism</li>
 </ul>
 </div>
 </td>
-<td align="center" width="180px">
-<br>
+<td align="center" valign="top" width="20%">
 <a href="https://github.com/shksithara">
 <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/shksithara&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="KalpaniSithara"/><br>
 <b>KalpaniSithara</b>
 </a>
 <br><br>
 <div align="left">
-<ul style="padding-left:20px;margin:0;">
+<ul style="padding-left:10px;margin:0;">
 <li>Web application frontend development</li>
 <li>Backend logic implementation</li>
 <li>Firebase real-time database integration</li>
 </ul>
 </div>
 </td>
-<td align="center" width="180px">
-<br>
+<td align="center" valign="top" width="20%">
 <a href="https://github.com/sulari-gamage">
 <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/sulari-gamage&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="SulariGamage"/><br>
 <b>SulariGamage</b>
 </a>
 <br><br>
 <div align="left">
-<ul style="padding-left:20px;margin:0;">
+<ul style="padding-left:10px;margin:0;">
 <li>Coin detection algorithm development</li>
 <li>IR sensor integration</li>
 <li>PCB component-level implementation</li>
 </ul>
 </div>
 </td>
-<td align="center" width="180px">
-<br>
+<td align="center" valign="top" width="20%">
 <a href="https://github.com/KaveenAlahapperuma">
 <img src="https://images.weserv.nl/?url=avatars.githubusercontent.com/KaveenAlahapperuma&h=80&w=80&fit=cover&mask=circle" width="80px" height="80px" alt="KaveenAlahapperuma"/><br>
 <b>KaveenAlahapperuma</b>
 </a>
 <br><br>
 <div align="left">
-<ul style="padding-left:20px;margin:0;">
+<ul style="padding-left:10px;margin:0;">
 <li>Security system implementation</li>
 <li>Password-protected solenoid locking mechanism</li>
 <li>Secure access control logic</li>
